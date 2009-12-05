@@ -1,0 +1,728 @@
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color:white;
+}
+
+form {
+	margin: 0px;
+}
+
+td {
+	font-size: 11px
+}
+
+input {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px 2px 0px 2px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+input.submit
+{
+	background-color: #FBFBFB;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	border: 1px solid #BBBBBB;
+	margin: 1px;
+}
+
+input.submit:hover
+{
+	color: #FF0000;
+}
+
+select {
+	font-size: 11px
+}
+
+textarea {
+	font-size: 11px
+}
+
+a {
+	text-decoration: none;
+	color: #0000FF;
+}
+
+a:hover {
+	color: #FF0000;
+}
+
+pre {
+	margin: 0px;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+	
+.center {
+	text-align: center;
+}
+
+.cotis-ok {
+	background-color: #DDFFDD;
+	vertical-align: top;
+}
+
+.cotis-never {
+	background-color: #EEEEEE;
+	vertical-align: top;
+}
+
+.cotis-exempt {
+	background-color: #DDFFDD;
+	vertical-align: top;
+}
+
+.cotis-soon {
+	background-color: #FFE9AB;
+	vertical-align: top;
+}
+		
+.cotis-late {
+	background-color: #FFDDDD;
+	vertical-align: top;
+}
+	
+.cotis-lastday {
+	background-color: #FFDDDD;
+	vertical-align: top;
+}
+
+.cotis-normal {
+	background-color: #DDFFDD;
+	vertical-align: top;
+}
+
+.cotis-give {
+	background-color: #FFDDDD;
+	vertical-align: top;
+}
+
+.totalcount {
+	text-align: left;
+}
+
+.pageswitch {
+	text-align: center;
+	margin-top: 4px;
+}
+
+.pagelink {
+	font-weight: bold;
+}
+
+.filtermenus {
+	text-align: right;
+}
+
+.titre {
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #FBFBFB;
+	border-color: #BBBBBB;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #000000;
+	width: 100%;
+}
+
+.soustitre {
+	font-size: 12px;
+	text-align: left;
+	font-weight: bold;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #FBFBFB;
+	border-color: #BBBBBB;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #000000;
+	width: 100%;
+}
+
+th.listing {
+	font-size: 10px;
+	background-color: #000000;
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+
+a.listing {
+	color: #FFFFFF;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+td.listing {
+	vertical-align: middle;
+}
+
+a.listing:hover {
+	color: #FF0000;
+}
+	
+.emptylist {
+	background-color: #EEEEEE;
+	text-align: center;
+	font-style: italic;
+}
+	
+.actif {
+}
+
+.inactif {
+	color: #777777;
+	font-style: italic;
+}
+
+.acronyme {
+	color: #AAAAAA;
+	font-style: italic;
+}
+
+#copyright {
+	color: #CCCCCC;
+	font-style: italic;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+#copyright a {
+	color: #CCCCCC;
+}
+
+#copyright a:hover {
+	color: #FF0000;
+}
+
+.exemple {
+	color: #999999;
+}
+
+#logo {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 15em;
+}
+
+.nav1 {
+	width: 155px;
+	border-color: #7777FF;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 10px;
+}
+
+.nav1 h1 {
+	margin: 2px;
+	font-size: 10px;
+	background-color: #CDCDFF;
+	padding-left: 2px;
+}
+
+.nav1 ul {
+	list-style-type: none;
+	margin: 2px;
+	padding: 0px;
+	border: none;
+}
+
+.nav1 li {
+	background-color: #EEEEEE;
+	margin-bottom: 2px;
+	padding-left: 2px;
+	_border:1px #EEEEEE solid; /* without this, IE6 will add spaces into menu :/ */
+}
+/* But we don't want any border here for others browsers*/
+html > * .nav1 li{
+	border:none;
+}
+
+#logout {
+	width: 150px;
+	margin-left: 5px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#legende {
+	width: 155px;
+	border-color: #7777FF;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#legende table {
+	width: 100%;
+}
+
+#legende h1 {
+	margin: 2px;
+	font-size: 10px;
+	background-color: #CDCDFF;
+	padding-left: 2px;
+	text-align: left;
+}
+
+#legende td {
+	padding-left: 2px;
+}
+
+#legende .back {
+	background-color: #EEEEEE;
+}
+
+.color-sample {
+	border-color: #AAAAAA;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#content {
+	position: absolute;
+	padding-right: 10px;
+	left: 180px;
+	right: 0px;
+}
+
+#menu {
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #DDDDFF;
+	padding: 5px;
+	width:15em;
+        border-color: #7777FF;
+        border-width: 1px;
+        border-style: solid;
+	-moz-border-radius: 0px 0px 8px 0px;
+}
+
+#menu a {
+	display: block;
+}
+
+
+#listfilter {
+	text-align: center;
+	background-color: #DDDDFF;
+	padding: 10px;
+	-moz-border-radius: 8px;
+	border: 1px solid #BBBBBB;
+	margin-bottom: 10px;
+}
+
+#listfilter form {
+	margin-bottom: 0px;
+}
+
+.infoline {
+	vertical-align: top;
+}
+
+.infoline td {
+        vertical-align: top;
+	width: 33%;
+}	
+
+.infoline ul {
+	margin: 0px;
+	list-style-type: none;
+}
+
+.infoline2 {
+	margin-top: 2px;
+}
+
+#mailing_preview {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 70%;
+	border-color: #DDDDDD;
+	border-width: 2px;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#mailing_preview th {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: left;
+	background-color: #EEEEEE;
+}
+
+#errorbox {
+	color: #FF0000;
+	border-color: #FFDDDD;
+	border-width: 2px;
+	border-style: solid;
+	margin-bottom: 10px;
+}
+		
+#errorbox h1 {
+	background-color: #FFDDDD;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#errorbox ul {
+	list-style-type: none;
+	margin: 2px;
+	padding: 0px;
+	border: none;
+}
+
+#warningbox {
+	color: #000000;
+	border-color: #FFE8CC;
+	border-width: 2px;
+	border-style: solid;
+	margin-bottom: 10px;
+}
+		
+#warningbox h1 {
+	background-color: #FFE8CC;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#warningbox ul {
+	list-style-type: none;
+	margin: 2px;
+	padding: 0px;
+	border: none;
+}		
+
+#input-table .libelle {
+	font-size: 11px;
+	text-align: left;
+	background-color: #DDDDFF;
+	font-weight: normal;
+}
+
+#input-table .header {
+	text-align: left;
+	font-weight: bold;
+}
+	
+#installpage {
+	background-color: #DDDDFF;
+	padding-left: 20px;
+}
+
+#installpage p {
+	background-color: #DDDDFF;
+	padding-left: 20px;
+	width: 80%;
+}
+	
+#installpage h1 {
+	text-align: left;
+	margin: 0px;
+	font-size: 12px;
+}
+	
+#installpage #submitbutton2 {
+	text-align: center;
+	padding-left: 20px;
+}
+	
+#installpage #submitbutton3 {
+	text-align: right;
+	padding-right: 20px;
+}
+		
+.titreinstall {
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #FBFBFB;
+	border-color: #BBBBBB;
+	color: #000000;
+	left: 0px;
+	right: 0px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+}
+
+.footerinstall {
+	font-size: 11px;
+	text-align: right;
+	padding-right: 20px;
+	font-weight: normal;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #FBFBFB;
+	border-color: #BBBBBB;
+	color: #000000;
+	left: 0px;
+	right: 0px;
+	margin: 0px;
+}
+
+.install-ok {
+	list-style-image: url("../../install/yes.gif");
+}
+
+.install-bad {
+	list-style-image: url("../../install/no.gif");
+}
+
+#listing td {
+	vertical-align: middle;
+}
+
+#listing input {
+	vertical-align: middle;
+}
+
+#listing img {
+        vertical-align: middle;
+}
+
+.mail_preview {
+	height: 230px;
+	vertical-align: top;
+	padding: 5px;
+}
+
+
+.button-container
+{
+	text-align: center;
+}
+.button-link
+{
+        font-size: 12px;
+        text-align: left;
+        font-weight: bold;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #FBFBFB;
+        border-color: #BBBBBB;
+        color: #000000;
+        padding: 10px 10px 10px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 18em;
+	background-image: url(images/lost_password.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.button-link a
+{
+	color: #666666;
+}
+.button-link a:hover
+{
+	color: #FF0000;
+}
+.button-back
+{
+	background-image: url(images/back.png);
+}
+.button-lost-password
+{
+	background-image: url(images/lost_password.png);
+}
+.button-subscribe
+{
+	background-image: url(images/add.png);
+}
+.button-labels
+{
+	background-image: url(images/labels.png);
+}
+.button-flush-logs
+{
+	background-image: url(images/trash.png);
+}
+
+#login_frm{
+	text-align:center;
+}
+
+.login-box
+{
+	width: 27em;
+	border: 1px solid #BBBBBB;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 10px 10px 10px;
+	text-align: center;
+}
+
+.content-box
+{
+	border: 1px solid #BBBBBB;
+	margin-top: 10px;
+	padding: 0px 10px 10px 10px;
+}
+
+.login-box h1
+{
+	margin: 10px 0px 15px 0px;
+}
+
+.login-box table
+{
+	width: 100%;
+}
+
+.login-box .flag
+{
+	border: 1px solid black;
+}
+
+.login-box th
+{
+	font-size: 12px;
+	text-align: right;
+}
+.login-box input {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px 2px 0px 2px;
+}
+
+.bigtable
+{
+	text-align: center;
+}
+.bigtable table
+{
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #BBBBBB;
+}
+.bigtable th
+{
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	background-color: #DDDDFF;
+	padding: 0px 5px 0px 5px;
+}
+.bigtable td
+{
+	background-color: #EEEEEE;
+	padding: 0px 5px 0px 5px;
+	text-align: left;
+}
+.bigtable .separator
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+.bigtable .subtitle
+{
+	color:#0C0CC0;
+	padding: 1em 5px 0.5em 5px;
+	font-weight:bold;
+	border-top:1px solid;
+}
+.bigtable .picture
+{
+	border: 1px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.required{
+	color:#FF0000;
+	font-weight:bold;
+}
+
+/** Accessibility **/
+/*input, label{
+	margin:0 0 0.5em 0;
+}*/
+fieldset{
+	border: 1px solid #BBBBBB;
+	margin:0 auto 1em auto;
+	width:60%;
+	text-align:left;
+}
+fieldset ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+fieldset li{
+/* 	border:1px purple dashed; */
+	margin:0.1em 0;
+	clear:left;
+}
+legend{
+	display:block;
+	border: 1px solid #BBBBBB;
+	font-weight:bold;
+	padding:0.2em 2em 0.2em 0.3em;
+}
+
+.cssform p{
+	clear: left;
+	margin: 0;
+	padding: 5px 0 8px 0;
+	padding-left: 21em; /*width of left column containing the label elements*/
+	border-top: 1px dashed gray;
+	height: 1%;
+}
+
+.bline{
+	font-weight: bold;
+	background-color: #DDDDFF;
+	padding:0.1em 0.3em;
+	margin-bottom:1em;
+	display:block;
+}
+
+.cssform .bline{
+	float: left;
+	margin-left: -21em;
+	_margin-left: -10em;
+	width: 20em;
+}
+
+.cssform textarea{
+	width: 250px;
+	height: 150px;
+}
+
+.logo{
+	margin:0.3em 0;
+}
